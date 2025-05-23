@@ -13,9 +13,8 @@ This repository contains my COMPE 596 *Accelerated Computing* programming assign
   - Benchmarks insertion time vs. thread count and list size  
 
 - **P03** – **OpenMP Simpson’s-Rule Integration**  
-  - C program to approximate `$ \displaystyle \int_{0}^{\pi/2} \frac{\arccos(\cos x)}{1 + 2\cos x} \, dx $`
-     using Simpson’s rule in parallel  
-  - Build and run scripts measure runtime and error for different thread/partition counts  
+  - C program to approximate using Simpson’s rule in parallel  
+  - Build and run scripts to measure runtime and error for different thread/partition counts  
 
 - **P04** – **Jacobi 2D Solver (CPU & CUDA)**  
   - Hybrid C/CUDA code implementing the Jacobi iterative method on a 2D grid  
@@ -25,11 +24,11 @@ This repository contains my COMPE 596 *Accelerated Computing* programming assign
 - **P05** – **CUDA Reduction for Array Summation**  
   - CUDA kernel for parallel reduction to sum large arrays  
   - Serial C version included for baseline comparison  
-  - Build scripts automate array-size sweeps and print speedup metrics  
+  - Build scripts to automate array-size sweeps and print speedup metrics  
 
 - **P06** – **Naïve vs Tiled GPU Matrix Multiplication**  
   - Two CUDA kernels: naïve and tiled (16×16 shared-memory) for multiplying \(M\times1024\) by \(1024\times M\)  
-  - Makefile builds both versions and a runner script measures relative performance  
+  - Makefile builds both versions, and a runner script measures relative performance  
 
 - **P07** – **Sobel 5×5 Convolution in CUDA**  
   - CUDA kernel applying a 5×5 horizontal Sobel filter to an image buffer  
@@ -46,7 +45,7 @@ This repository contains my COMPE 596 *Accelerated Computing* programming assign
 
 - **P11** – **Dense vs Sparse GEMM with ROCm**  
   - HIP program timing dense GEMM (rocBLAS) vs. sparse GEMM (rocSPARSE) on large matrices  
-  - Build scripts automate runs at various sparsity levels  
+  - Build scripts to automate runs at various sparsity levels  
 
 ---
 
