@@ -13,7 +13,8 @@ This repository contains my COMPE 596 *Accelerated Computing* programming assign
   - Benchmarks insertion time vs. thread count and list size  
 
 - **P03** – **OpenMP Simpson’s-Rule Integration**  
-  - C program to approximate \(\displaystyle\int_0^{\pi/2}\!\frac{\arccos(\cos x)}{1+2\cos x}\,dx\) using Simpson’s rule in parallel  
+  - C program to approximate `$ \displaystyle \int_{0}^{\pi/2} \frac{\arccos(\cos x)}{1 + 2\cos x} \, dx $`
+     using Simpson’s rule in parallel  
   - Build and run scripts measure runtime and error for different thread/partition counts  
 
 - **P04** – **Jacobi 2D Solver (CPU & CUDA)**  
